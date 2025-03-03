@@ -13,9 +13,13 @@
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.4",
     "@tanstack/react-query": "^5.66.0",
+    "canvas-confetti": "^1.9.3",
     "framer-motion": "^12.4.3",
     "react": "^19.0.0",
+    "react-confetti": "^6.3.0",
     "react-dom": "^19.0.0",
+    "react-fireworks": "^1.0.4",
+    "react-rain-animation": "^1.0.4",
     "react-router-dom": "^7.1.5",
     "tailwindcss": "^4.0.4"
   },

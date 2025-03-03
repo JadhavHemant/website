@@ -18,13 +18,13 @@ export const ProfileCom = () => {
     <>
       <header className="sticky top-0">
         <nav>
-          <div className="mx-auto bg-gray-600 text-[20px] w-max-auto">
+          <div className="mx-auto backdrop-blur-[4px] w-max-auto">
             <div className="flex justify-between mx-auto p-2">
               <div className="flex items-center justify-between my-2 lg:justify-end gap-[40px] ">
                 <Link to="/">
                   <div className="pl-4">
                     {/* <img src={logo} alt="Logo" className="h-[50px] w-[180px]" /> */}
-                    <h1 className="text-3xl font-extrabold  bg-clip-text bg-gradient-to-r from-[black] to-[black] text-cyan-50">
+                    <h1 className="text-3xl font-extrabold">
                       𝓱𝓮𝓶𝓪𝓷𝓽
                     </h1>
                   </div>

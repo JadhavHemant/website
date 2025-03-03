@@ -1,0 +1,11 @@
+Deployement Id
+AKfycbyFy10rF8_wrk3iitMHTy59gLQzZycD1iJJapoEUxcwmhf2DmLJ-2mPL4XK-MMyy1XebA
+
+
+webApi Url
+https://script.google.com/macros/s/AKfycbyFy10rF8_wrk3iitMHTy59gLQzZycD1iJJapoEUxcwmhf2DmLJ-2mPL4XK-MMyy1XebA/exec
+
+https://script.google.com/macros/s/AKfycbyFy10rF8_wrk3iitMHTy59gLQzZycD1iJJapoEUxcwmhf2DmLJ-2mPL4XK-MMyy1XebA/exec
+
+
+https://script.google.com/macros/s/AKfycbyFy10rF8_wrk3iitMHTy59gLQzZycD1iJJapoEUxcwmhf2DmLJ-2mPL4XK-MMyy1XebA/exec?action=read

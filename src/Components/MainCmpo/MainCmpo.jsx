@@ -5,6 +5,7 @@ import { AboutMe } from '../AboutMe/AboutMe';
 import { Skills } from '../Skills/Skills';
 import { Projects } from '../Projects/Projects';
 import { Home } from '../Home/Home';
+// import { Footer } from '../Footer/Footer';
 
 export const MainCmpo = () => {
   return (
@@ -19,6 +20,9 @@ export const MainCmpo = () => {
     </Route>
   </Routes>
 </Router>
+<div>
+ {/* <Footer/> */}
+</div>
 
 </>
   )

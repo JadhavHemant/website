@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from './Images/img1.jpg'
 export const Home = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen backdrop-blur-sm  flex items-center justify-center">
     <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl p-6 shadow-lg rounded-2xl">
       {/* Left Side Image */}
       <div className="group w-64 h-64">
