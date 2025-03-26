@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route,Routes} from "react-router-dom";
 import { ProfileCom } from '../ProfileCom/ProfileCom';
 import { AboutMe } from '../AboutMe/AboutMe';
 import { Skills } from '../Skills/Skills';
-import { Projects } from '../Projects/Projects';
 import { Home } from '../Home/Home';
+import ContactMe from '../ContactMe/ContactMe';
 // import { Footer } from '../Footer/Footer';
 
 export const MainCmpo = () => {
@@ -14,9 +14,9 @@ export const MainCmpo = () => {
   <Routes>
     <Route path='' element={<ProfileCom/>}>
     <Route path='' element={<Home/>}/>
-    <Route path='about' element={<AboutMe/>}/>
-    <Route path='skills' element={<Skills/>}/>
-    <Route path='project' element={<Projects/>}/>
+    <Route path='Aboutus' element={<AboutMe/>}/>
+    <Route path='Product' element={<Skills/>}/>
+    <Route path='Contactus' element={<ContactMe/>}/>
     </Route>
   </Routes>
 </Router>

@@ -1,30 +1,32 @@
 import React from 'react'
-import img1 from './Images/img1.jpg'
+import img1 from './Images/BALL VALVESEATBACKSIDE.jpeg'
+import ImageSlideshow from './ImageSlideshow/ImageSlideshow';
 export const Home = () => {
   return (
-    <div className="min-h-screen backdrop-blur-sm  flex items-center justify-center">
-    <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl p-6 shadow-lg rounded-2xl">
-      {/* Left Side Image */}
-      <div className="group w-64 h-64">
-        <img
-          src={img1} // Replace with your image URL
-          alt="Profile"
-          className="w-full h-full object-cover rounded-full shadow-lg transition-transform duration-300 group-hover:scale-110"
-        />
-        {/* <div className="absolute inset-[1000px] bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div> */}
-      </div>
-
-      {/* Right Side Content */}
-      <div className="text-center md:text-left border-amber-950">
-        <h1 className="text-4xl font-bold text-gray-800 mb-2">
-        𝓱𝓮𝓶𝓪𝓷𝓽 𝓳𝓪𝓭𝓱𝓪𝓿
-        </h1>
-        <p className="text-lg text-gray-600 mb-4">
-      I have expertise in various technologies. Currently, <br/>
-      I am working at STW LLP, <br/>
-      where I contribute to innovative solutions and enhance my skills.</p>
+    <>
+      <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-gray-100 p-6">
+        <div className="w-full md:w-1/2 flex justify-center">
+          <img
+            src={img1}
+            alt="Placeholder"
+            className="w-full max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-lg"
+          />
         </div>
-    </div>
-  </div>
-);
+
+        <div className="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left p-6">
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+          Fluorothermech Polymer
+          </h2>
+          <p className="text-gray-600  mb-4 font-[20px]">
+            Fluorothermech Polymer is a leading manufacturer of high-performance plastic and composite polymer components, specializing in PTFE, melt-processible fluoropolymers, and other engineered plastics. With over five years of expertise in polymer product development, we leverage advanced compression moulding technology to create rods, tubes, sheets, plates, near-net shapes, and complex finished parts that meet the highest industry standards.
+            Based in Pune, India, our state-of-the-art manufacturing facility is equipped with all the necessary resources to deliver superior quality products to a wide range of industries, including Aerospace & Defence, Chemical Processing, Electronics, Medical, Oil & Gas, and Water Treatment. As an ISO 9001:2015 certified company, we are committed to precision, innovation, and customer satisfaction through timely delivery, competitive pricing, and premium-quality products.
+            At Fluorothermech Polymer, our young and dynamic team of experts continuously pushes the boundaries of polymer engineering to develop customized solutions tailored to our clients' needs. Whether it’s high-performance plastic materials or specialized machined components, we ensure our products consistently meet or exceed industry specification
+          </p>
+        </div>
+      </div>
+      <>
+    <ImageSlideshow/>
+      </>
+    </>
+  );
 }

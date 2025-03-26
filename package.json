@@ -13,6 +13,7 @@
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.4",
     "@tanstack/react-query": "^5.66.0",
+    "axios": "^1.8.4",
     "canvas-confetti": "^1.9.3",
     "framer-motion": "^12.4.3",
     "react": "^19.0.0",
